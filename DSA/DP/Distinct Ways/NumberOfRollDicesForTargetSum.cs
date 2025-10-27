@@ -23,7 +23,7 @@ namespace DSA.DP.Distinct_Ways
                         temp[t] = (temp[t] + dp[t - j]) % MOD;
                     }
                 }
-                Array.Copy(temp, 0, dp, 0, target + 1); // Update the dp array
+                // Array.Copy(temp, 0, dp, 0, target + 1); // Update the dp array
             }
 
             return dp[target];

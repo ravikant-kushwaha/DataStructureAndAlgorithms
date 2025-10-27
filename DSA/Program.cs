@@ -1,5 +1,21 @@
-﻿using DSA.DP.Distinct_Ways;
+﻿using DSA.Array;
+using DSA.BST.BFS;
+using DSA.BST.HeightofBST;
+using DSA.BST.Inorder;
+using DSA.BST.Insert;
+using DSA.BST.Postorder;
+using DSA.BST.Preorder;
+using DSA.BST.SerializeBST;
+using DSA.BST.Symmetric;
+using DSA.DP.Distinct_Ways;
+using DSA.DP.Merging_Intervals;
 using DSA.DP.Minimum__Maximum__Path_to_Reach_a_Target;
+using DSA.Graphs;
+using DSA.Greedy;
+using DSA.Maths;
+using DSA.Recrusion;
+using DSA.Siliding_window;
+using DSA.Strings;
 
-new NumberOfRollDicesForTargetSum().start();
+new LaserBeam().Start();
 Console.ReadLine();
