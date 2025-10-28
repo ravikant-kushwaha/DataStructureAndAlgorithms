@@ -17,5 +17,5 @@ using DSA.Recrusion;
 using DSA.Siliding_window;
 using DSA.Strings;
 
-new LaserBeam().Start();
+new ElementEqualToZero().Start();
 Console.ReadLine();
