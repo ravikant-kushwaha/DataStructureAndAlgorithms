@@ -1,4 +1,5 @@
 ﻿using DSA.Array;
+using DSA.Array.Easy;
 using DSA.BST.BFS;
 using DSA.BST.HeightofBST;
 using DSA.BST.Inorder;
@@ -17,5 +18,5 @@ using DSA.Recrusion;
 using DSA.Siliding_window;
 using DSA.Strings;
 
-new ElementEqualToZero().Start();
+new Sneakynums().Start();
 Console.ReadLine();
