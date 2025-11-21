@@ -20,5 +20,5 @@ using DSA.Recrusion;
 using DSA.Siliding_window;
 using DSA.Strings;
 
-new OneKPleacesAway().Start();
+new Palndromeof3Chars().Start();
 Console.ReadLine();

@@ -15,7 +15,11 @@ namespace DSA.Array.Easy
             bool foundOne = false;
             for(int i =0; i < nums.Length; i++)
             {
-                if(nums[i] == 1 && !foundOne) foundOne = true;
+                if(nums[i] == 1 && !foundOne) 
+                {
+                    foundOne = true;
+                    distance = 0;
+                }
                 else if(nums[i] == 1)
                 {
                     if(distance < k) return false;
