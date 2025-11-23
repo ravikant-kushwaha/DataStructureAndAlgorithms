@@ -20,5 +20,5 @@ using DSA.Recrusion;
 using DSA.Siliding_window;
 using DSA.Strings;
 
-new Palndromeof3Chars().Start();
+new GreatestSunDivisbleByThree().Start();
 Console.ReadLine();
